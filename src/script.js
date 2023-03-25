@@ -21,5 +21,6 @@ function move()
 var yesbutton = document.getElementById("yes");
 yesbutton.addEventListener("click", function ()
 {
-  window.location.href = "firework.html";
+  document.getElementById("wrapper").style.visibility = "hidden";
+  document.getElementById("firework").style.visibility = "visible";
 });
